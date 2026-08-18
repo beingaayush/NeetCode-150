@@ -1,0 +1,51 @@
+After completing neetcode's 150;
+
+| Area             | we covered                                          |
+| ---------------- | ---------------------------------------------------------- |
+| Arrays & Hashing | Frequency, lookup, prefix/suffix, hashing patterns         |
+| Two Pointers     | Sorted arrays, pair/triplet, palindrome problems           |
+| Sliding Window   | Fixed + variable window problems                           |
+| Stack            | Monotonic stack, bracket, histogram, expression problems   |
+| Binary Search    | Normal + rotated array + answer-space BS                   |
+| Linked List      | Reverse, cycle, merge, fast/slow pointer, LRU              |
+| Trees            | DFS, BFS, BST, recursion, tree construction                |
+| Tries            | Prefix/search problems                                     |
+| Heap             | Top-K, median, scheduling, priority problems               |
+| Backtracking     | Subsets, permutations, combinations, constraint problems   |
+| Greedy           | Local optimal decisions, interval/jump/scheduling patterns |
+| Intervals        | Merge, overlap, meeting-room problems                      |
+| Graphs           | BFS, DFS, Union-Find, Topological Sort, Dijkstra, MST      |
+| DP               | 1D, 2D, knapsack, subsequence, interval DP                 |
+| Bit/Math         | XOR, bit manipulation, binary exponentiation               |
+
+
+
+gradually "question → pattern → approach" mapping develop hogi.
+
+"Longest substring..."
+        ↓
+Sliding Window
+
+"Top K..."
+        ↓
+Heap / Bucket
+
+"Shortest path with positive weights"
+        ↓
+Dijkstra
+
+"Need all combinations"
+        ↓
+Backtracking
+
+"BST + kth smallest"
+        ↓
+Inorder
+
+"Overlapping intervals"
+        ↓
+Sort + Merge
+
+"Repeated optimal subproblems"
+        ↓
+DP
