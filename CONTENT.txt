@@ -1,0 +1,152 @@
+| Problem Name                                              | Problem Number | Approach                                                |
+| --------------------------------------------------------- | -------------: | ------------------------------------------------------- |
+| Contains Duplicate                                        |            217 | HashSet: duplicate element detect karo                  |
+| Valid Anagram                                             |            242 | Character frequency counting                            |
+| Two Sum                                                   |              1 | HashMap: `target - nums[i]` lookup                      |
+| Group Anagrams                                            |             49 | Sorted string / frequency signature + HashMap           |
+| Top K Frequent Elements                                   |            347 | Frequency map + Bucket Sort / Heap                      |
+| Encode and Decode Strings                                 |            271 | Length-prefix encoding                                  |
+| Product of Array Except Self                              |            238 | Prefix product + suffix product                         |
+| Valid Sudoku                                              |             36 | HashSet for rows, columns, and 3×3 boxes                |
+| Longest Consecutive Sequence                              |            128 | HashSet; sequence only `x-1` absent hone par start karo |
+| Valid Parentheses                                         |             20 | Stack + matching brackets                               |
+| Min Stack                                                 |            155 | Stack + minimum value tracking                          |
+| Evaluate Reverse Polish Notation                          |            150 | Stack; operands push, operator par calculate            |
+| Generate Parentheses                                      |             22 | Backtracking with open/close counts                     |
+| Daily Temperatures                                        |            739 | Monotonic decreasing stack                              |
+| Car Fleet                                                 |            853 | Sort by position + arrival time tracking                |
+| Largest Rectangle in Histogram                            |             84 | Monotonic increasing stack                              |
+| Valid Palindrome                                          |            125 | Two pointers + alphanumeric check                       |
+| Two Sum II - Input Array Is Sorted                        |            167 | Two pointers                                            |
+| 3Sum                                                      |             15 | Sort + fixed element + two pointers                     |
+| Container With Most Water                                 |             11 | Two pointers; smaller height pointer move karo          |
+| Trapping Rain Water                                       |             42 | Two pointers + leftMax/rightMax                         |
+| Best Time to Buy and Sell Stock                           |            121 | Track minimum price + maximum profit                    |
+| Longest Substring Without Repeating Characters            |              3 | Sliding window + HashSet/HashMap                        |
+| Longest Repeating Character Replacement                   |            424 | Sliding window + max frequency                          |
+| Permutation in String                                     |            567 | Fixed-size sliding window + frequency                   |
+| Minimum Window Substring                                  |             76 | Variable sliding window + frequency map                 |
+| Sliding Window Maximum                                    |            239 | Monotonic deque                                         |
+| Binary Search                                             |            704 | Standard binary search                                  |
+| Search a 2D Matrix                                        |             74 | Binary search on flattened matrix                       |
+| Koko Eating Bananas                                       |            875 | Binary search on answer                                 |
+| Find Minimum in Rotated Sorted Array                      |            153 | Binary search on sorted/unsorted half                   |
+| Search in Rotated Sorted Array                            |             33 | Binary search + identify sorted half                    |
+| Time Based Key-Value Store                                |            981 | HashMap + binary search on timestamps                   |
+| Median of Two Sorted Arrays                               |              4 | Binary search on partition                              |
+| Reverse Linked List                                       |            206 | Iterative pointer reversal                              |
+| Merge Two Sorted Lists                                    |             21 | Two pointers + dummy node                               |
+| Linked List Cycle                                         |            141 | Floyd's slow/fast pointers                              |
+| Reorder List                                              |            143 | Find middle + reverse second half + merge               |
+| Remove Nth Node From End of List                          |             19 | Two pointers with `n` gap                               |
+| Copy List with Random Pointer                             |            138 | HashMap: original → copied node                         |
+| Add Two Numbers                                           |              2 | Digit-by-digit addition + carry                         |
+| Find the Duplicate Number                                 |            287 | Floyd's cycle detection                                 |
+| LRU Cache                                                 |            146 | HashMap + Doubly Linked List                            |
+| Merge k Sorted Lists                                      |             23 | Min-heap / priority queue                               |
+| Reverse Nodes in k-Group                                  |             25 | Linked-list reversal in groups of `k`                   |
+| Invert Binary Tree                                        |            226 | DFS recursion + swap children                           |
+| Maximum Depth of Binary Tree                              |            104 | DFS; `1 + max(left,right)`                              |
+| Diameter of Binary Tree                                   |            543 | DFS height + global diameter                            |
+| Balanced Binary Tree                                      |            110 | DFS height + balance check                              |
+| Same Tree                                                 |            100 | Recursive node-by-node comparison                       |
+| Subtree of Another Tree                                   |            572 | DFS + Same Tree check                                   |
+| Lowest Common Ancestor of a Binary Search Tree            |            235 | BST property                                            |
+| Binary Tree Level Order Traversal                         |            102 | BFS using queue                                         |
+| Binary Tree Right Side View                               |            199 | BFS; take last node of each level                       |
+| Count Good Nodes in Binary Tree                           |           1448 | DFS + maximum value on current path                     |
+| Validate Binary Search Tree                               |             98 | DFS with valid min/max range                            |
+| Kth Smallest Element in a BST                             |            230 | Inorder traversal                                       |
+| Construct Binary Tree from Preorder and Inorder Traversal |            105 | Preorder root + inorder partition                       |
+| Binary Tree Maximum Path Sum                              |            124 | DFS + maximum downward path                             |
+| Serialize and Deserialize Binary Tree                     |            297 | Preorder traversal + null markers                       |
+| Implement Trie (Prefix Tree)                              |            208 | Trie nodes + children array                             |
+| Design Add and Search Words Data Structure                |            211 | Trie + DFS for `.` wildcard                             |
+| Word Search II                                            |            212 | Trie + DFS/backtracking                                 |
+| Subsets                                                   |             78 | Backtracking; include/exclude                           |
+| Combination Sum                                           |             39 | Backtracking + reusable elements                        |
+| Combination Sum II                                        |             40 | Sorting + backtracking + duplicate skip                 |
+| Permutations                                              |             46 | Backtracking + used tracking                            |
+| Subsets II                                                |             90 | Sorting + backtracking + duplicate skip                 |
+| Word Search                                               |             79 | DFS + backtracking                                      |
+| Palindrome Partitioning                                   |            131 | Backtracking + palindrome check                         |
+| Letter Combinations of a Phone Number                     |             17 | Backtracking over digit mappings                        |
+| N-Queens                                                  |             51 | Backtracking + column/diagonal sets                     |
+| Kth Largest Element in a Stream                           |            703 | Min-heap of size `k`                                    |
+| Last Stone Weight                                         |           1046 | Max-heap                                                |
+| K Closest Points to Origin                                |            973 | Max-heap of size `k`                                    |
+| Kth Largest Element in an Array                           |            215 | Min-heap / Quickselect                                  |
+| Task Scheduler                                            |            621 | Max-heap + cooldown scheduling                          |
+| Design Twitter                                            |            355 | HashMap + heap + timestamps                             |
+| Find Median from Data Stream                              |            295 | Two heaps: max-heap + min-heap                          |
+| Insert Interval                                           |             57 | Merge overlapping intervals                             |
+| Merge Intervals                                           |             56 | Sort by start + merge overlaps                          |
+| Non-overlapping Intervals                                 |            435 | Greedy; sort by end time                                |
+| Meeting Rooms                                             |            252 | Sort intervals + overlap check                          |
+| Meeting Rooms II                                          |            253 | Min-heap of ending times                                |
+| Minimum Interval to Include Each Query                    |           1851 | Sort intervals + queries + min-heap                     |
+| Maximum Subarray                                          |             53 | Kadane's Algorithm                                      |
+| Jump Game                                                 |             55 | Greedy; track farthest reachable index                  |
+| Jump Game II                                              |             45 | Greedy BFS-like level expansion                         |
+| Gas Station                                               |            134 | Greedy; reset start when tank becomes negative          |
+| Hand of Straights                                         |            846 | Frequency map + ordered structure                       |
+| Merge Triplets to Form Target Triplet                     |           1899 | Ignore invalid triplets + track achievable values       |
+| Partition Labels                                          |            763 | Last occurrence + greedy partition                      |
+| Valid Parenthesis String                                  |            678 | Greedy range of possible open brackets                  |
+| Number of Islands                                         |            200 | DFS/BFS flood fill                                      |
+| Max Area of Island                                        |            695 | DFS/BFS + count island size                             |
+| Clone Graph                                               |            133 | DFS/BFS + HashMap                                       |
+| Walls and Gates                                           |            286 | Multi-source BFS from gates                             |
+| Rotting Oranges                                           |            994 | Multi-source BFS                                        |
+| Pacific Atlantic Water Flow                               |            417 | Reverse DFS/BFS from both oceans                        |
+| Surrounded Regions                                        |            130 | Boundary DFS/BFS + mark safe regions                    |
+| Course Schedule                                           |            207 | Cycle detection / Topological Sort                      |
+| Course Schedule II                                        |            210 | Topological Sort                                        |
+| Graph Valid Tree                                          |            261 | DFS/Union-Find + no cycle + connectivity                |
+| Number of Connected Components in an Undirected Graph     |            323 | DFS/BFS or Union-Find                                   |
+| Redundant Connection                                      |            684 | Union-Find                                              |
+| Word Ladder                                               |            127 | BFS over word transformations                           |
+| Network Delay Time                                        |            743 | Dijkstra's Algorithm                                    |
+| Reconstruct Itinerary                                     |            332 | DFS + Hierholzer's algorithm                            |
+| Min Cost to Connect All Points                            |           1584 | Minimum Spanning Tree: Prim/Kruskal                     |
+| Swim in Rising Water                                      |            778 | Min-heap / Dijkstra                                     |
+| Alien Dictionary                                          |            269 | Build graph + Topological Sort                          |
+| Cheapest Flights Within K Stops                           |            787 | Bellman-Ford / limited relaxation                       |
+| Climbing Stairs                                           |             70 | 1D Dynamic Programming                                  |
+| Min Cost Climbing Stairs                                  |            746 | 1D Dynamic Programming                                  |
+| House Robber                                              |            198 | 1D DP: rob / skip                                       |
+| House Robber II                                           |            213 | House Robber twice: exclude first or last               |
+| Longest Palindromic Substring                             |              5 | Expand around center                                    |
+| Palindromic Substrings                                    |            647 | Expand around every center                              |
+| Decode Ways                                               |             91 | 1D DP based on valid 1/2 digit decoding                 |
+| Coin Change                                               |            322 | 1D DP: minimum coins                                    |
+| Maximum Product Subarray                                  |            152 | Track current max and min product                       |
+| Word Break                                                |            139 | 1D DP + dictionary lookup                               |
+| Longest Increasing Subsequence                            |            300 | DP / Binary Search                                      |
+| Partition Equal Subset Sum                                |            416 | 0/1 Knapsack DP                                         |
+| Unique Paths                                              |             62 | 2D / 1D DP                                              |
+| Longest Common Subsequence                                |           1143 | 2D DP                                                   |
+| Best Time to Buy and Sell Stock with Cooldown             |            309 | State-based DP                                          |
+| Coin Change II                                            |            518 | Unbounded Knapsack DP                                   |
+| Target Sum                                                |            494 | DP / subset-sum transformation                          |
+| Interleaving String                                       |             97 | 2D DP                                                   |
+| Longest Increasing Path in a Matrix                       |            329 | DFS + Memoization                                       |
+| Distinct Subsequences                                     |            115 | 2D DP                                                   |
+| Edit Distance                                             |             72 | 2D DP                                                   |
+| Burst Balloons                                            |            312 | Interval DP                                             |
+| Regular Expression Matching                               |             10 | 2D DP + pattern matching                                |
+| Single Number                                             |            136 | XOR                                                     |
+| Number of 1 Bits                                          |            191 | Bit manipulation / `n & (n-1)`                          |
+| Counting Bits                                             |            338 | DP using `i & (i-1)`                                    |
+| Reverse Bits                                              |            190 | Bit-by-bit reversal                                     |
+| Missing Number                                            |            268 | XOR / arithmetic sum                                    |
+| Sum of Two Integers                                       |            371 | Bitwise XOR + carry                                     |
+| Reverse Integer                                           |              7 | Digit extraction + overflow check                       |
+| Rotate Image                                              |             48 | Transpose + reverse rows                                |
+| Spiral Matrix                                             |             54 | Boundary traversal                                      |
+| Set Matrix Zeroes                                         |             73 | First row/column as markers                             |
+| Happy Number                                              |            202 | HashSet / Floyd cycle detection                         |
+| Plus One                                                  |             66 | Process digits from right with carry                    |
+| Pow(x, n)                                                 |             50 | Binary Exponentiation                                   |
+| Multiply Strings                                          |             43 | Digit multiplication + carry                            |
+| Detect Squares                                            |           2013 | HashMap frequency + coordinate geometry                 |
