@@ -1,0 +1,11 @@
+| No. | Problem                               |
+| --: | ------------------------------------- |
+|  78 | Subsets                               |
+|  39 | Combination Sum                       |
+|  40 | Combination Sum II                    |
+|  46 | Permutations                          |
+|  90 | Subsets II                            |
+|  79 | Word Search                           |
+| 131 | Palindrome Partitioning               |
+|  17 | Letter Combinations of a Phone Number |
+|  51 | N-Queens                              |
