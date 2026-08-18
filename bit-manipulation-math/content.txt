@@ -1,0 +1,17 @@
+|  No. | Problem             |
+| ---: | ------------------- |
+|  136 | Single Number       |
+|  191 | Number of 1 Bits    |
+|  338 | Counting Bits       |
+|  190 | Reverse Bits        |
+|  268 | Missing Number      |
+|  371 | Sum of Two Integers |
+|    7 | Reverse Integer     |
+|   48 | Rotate Image        |
+|   54 | Spiral Matrix       |
+|   73 | Set Matrix Zeroes   |
+|  202 | Happy Number        |
+|   66 | Plus One            |
+|   50 | Pow(x, n)           |
+|   43 | Multiply Strings    |
+| 2013 | Detect Squares      |
