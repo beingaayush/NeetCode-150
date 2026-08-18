@@ -1,0 +1,9 @@
+|  No. | Problem                         |
+| ---: | ------------------------------- |
+|  703 | Kth Largest Element in a Stream |
+| 1046 | Last Stone Weight               |
+|  973 | K Closest Points to Origin      |
+|  215 | Kth Largest Element in an Array |
+|  621 | Task Scheduler                  |
+|  355 | Design Twitter                  |
+|  295 | Find Median from Data Stream    |
