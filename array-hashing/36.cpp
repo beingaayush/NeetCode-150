@@ -17,11 +17,11 @@ public:
                 int box = (i/3) * 3 + (j/3);
                 
                 if(rows[i].count(num)) return false;
-                if(cols[i].count(num)) return false;
+                if(cols[j].count(num)) return false;
                 if(boxes[box].count(num)) return false;
 
                 rows[i].insert(num);
-                cols[i].insert(num);
+                cols[j].insert(num);
                 boxes[box].insert(num);
             }
         }
