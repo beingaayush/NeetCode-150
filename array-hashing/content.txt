@@ -9,3 +9,13 @@
 | 238 | Product of Array Except Self |
 |  36 | Valid Sudoku                 |
 | 128 | Longest Consecutive Sequence |
+
+--------------------------------------
+
+
+[MAP cheatsheet] 
+
+Sirf unique values chahiye        =       	  set / unordered_set
+key → value mapping chahiye       =      	  map / unordered_map
+Sorted order chahiye              =           set / map
+Fast lookup chahiye, order doesn't matter  =  unordered_set / unordered_map
